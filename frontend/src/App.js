@@ -15,7 +15,7 @@ function App() {
 
   const fetchContacts = async () => {
     try {
-      const response = await fetch('/api/contacts');
+      const response = await fetch('https://contact-mangment-assingment.onrender.com/api/contacts');
       const data = await response.json();
       
       if (data.success) {

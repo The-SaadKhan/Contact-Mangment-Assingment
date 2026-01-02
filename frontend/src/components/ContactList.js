@@ -8,7 +8,7 @@ const ContactList = ({ contacts, onContactDeleted, onSort }) => {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`/api/contacts/${id}`, {
+      const response = await fetch(`https://contact-mangment-assingment.onrender.com/api/contacts/${id}`, {
         method: 'DELETE',
       });
 

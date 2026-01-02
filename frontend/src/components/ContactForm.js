@@ -110,7 +110,7 @@ const ContactForm = ({ onContactAdded }) => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('/api/contacts', {
+      const response = await fetch('https://contact-mangment-assingment.onrender.com/api/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
