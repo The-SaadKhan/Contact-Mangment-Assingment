@@ -157,10 +157,10 @@ The app will automatically open in your browser at `http://localhost:3000`
 Create a new contact
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
-  "phone": "+1234567890",
-  "message": "Optional message"
+  "name": "Saad Khan",
+  "email": "saadkhan9969@fmail.com",
+  "phone": "9667821869",
+  "message": "I am The Best"
 }
 ```
 
